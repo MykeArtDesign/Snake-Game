@@ -1,0 +1,32 @@
+/* GLOBAL */
+
+/*==== CANVAS ====*/
+body
+{
+	background-image: url('../img/snake.png');
+	/*background-position: center;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+section
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding: 10rem;
+}
+
+#zone
+{
+	background-color: #2c3e50;
+	border: .5rem ridge #34495e;
+}
+
+footer
+{
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+}
+
