@@ -3,11 +3,25 @@
 /*==== CANVAS ====*/
 body
 {
-	background-image: url('../img/snake.png');
+	background-color: #2d3436;
 	/*background-position: center;*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 0 auto;
+}
+
+header>a
+{
+  text-decoration: none;
+  color: ivory;
+  align-self: flex-start;
+  padding: .5rem;
+  margin: .5rem;
+  background-color: rgba(0, 153, 255, 1);
+  border-radius: .3rem;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
 }
 
 section
@@ -21,7 +35,7 @@ section
 #zone
 {
 	background-color: #2c3e50;
-	border: .5rem ridge #34495e;
+	outline: .5rem ridge #34495e;
 }
 
 footer
